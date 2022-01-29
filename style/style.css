@@ -81,16 +81,17 @@ li{
     max-width: 80%;
     margin: 0 auto;
 }
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
 .thead{
     color: #ffffff;
     background-color: #62b4ee;
     padding: 5px 0 5px 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-}
-table{
-    border-collapse: collapse;
-    margin-bottom: 10px;
 }
 .tcol{
     color: #ffffff;
