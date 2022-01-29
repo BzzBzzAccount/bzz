@@ -182,36 +182,3 @@ table{
     }
 }
 
-h3{
-    text-transform: uppercase;
-}
-.formats{
-    margin-bottom: 300px;
-}
-.tab{
-    margin: 0 auto;
-    overflow: hidden;
-    background-color: #f1f1f1;
-    max-width: fit-content;
-}
-.tab button{
-    background-color: #62b4ee;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-    text-transform: uppercase;
-}
-.tab button:hover{
-    background-color: #3a74eb;
-}
-.tabcontent{
-    background-color: #62b4ee;
-    margin: 0 auto;
-    display: none;
-    padding: 6px 12px;
-    width: 309px;
-}
