@@ -4,6 +4,7 @@
 }
 
 body{
+    font-style: italic;
     background-color: rgb(226, 233, 236);
 }
 .header {
@@ -87,6 +88,7 @@ table{
     margin-bottom: 10px;
 }
 .thead{
+    font-style: italic;
     color: #ffffff;
     background-color: #62b4ee;
     padding: 5px 0 5px 0;
