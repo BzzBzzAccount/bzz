@@ -4,6 +4,7 @@
 }
 
 body{
+    font-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(226, 233, 236);
 }
@@ -18,9 +19,9 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 h1{
-    font-style: italic;
     color:rgb(248, 235, 217) ;
     text-shadow: 0px 2px #9a4f43;
+    font-style: italic;
 }
 .main {
     width: 100%;
@@ -83,11 +84,6 @@ li{
     max-width: 80%;
     margin: 0 auto;
 }
-
-table{
-    border-collapse: collapse;
-    margin-bottom: 10px;
-}
 .thead{
     font-style: italic;
     color: #ffffff;
@@ -95,6 +91,10 @@ table{
     padding: 5px 0 5px 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 10px;
 }
 .tcol{
     color: #ffffff;
@@ -107,17 +107,17 @@ table{
     padding-left: 3px;
     padding-bottom: 3px;
 }
-.tfoot{
-    background-color: #62b4ee;
-    color: #62b4ee;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
 .invis{
     padding: 3px;
     text-align: center;
     color: #62b4ee;
     background-color: #62b4ee;
+}
+.tfoot{
+    background-color: #62b4ee;
+    color: #62b4ee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .trigg_img{
     margin: 0 3px 0 3px;
@@ -127,11 +127,11 @@ table{
 
 
 
-#myImg{
+#myImg, #myImg2{
     cursor: pointer;
     transition: 0.3s;
 }
-.modal{
+.modal, .modal2{
     display: none;
     position: fixed;
     z-index: 1;
@@ -144,14 +144,14 @@ table{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.9);
 }
-.modal_content{
+.modal_content, .modal_content2{
     margin: auto;
     display: block;
     width: 80%;
     max-width: 100%;
 }
 
-.modal_content {
+.modal_content, .modal_content2 {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -164,10 +164,10 @@ table{
     }
 }
 
-.close:hover {
+.close:hover, .close2:hover {
   cursor: pointer;
 }
-.close{
+.close, .close2{
     position: absolute;
     top: 15px;
     right: 35px;
@@ -177,7 +177,7 @@ table{
     transition: 0.3s;
 }
 @media only screen and (max-width: 700px){
-    .modal_content {
+    .modal_content,.modal_content2 {
       width: 100%;
     }
 }
