@@ -81,7 +81,7 @@ li{
     max-width: 80%;
     margin: 0 auto;
 }
-th{
+.thead{
     color: #ffffff;
     background-color: #62b4ee;
     padding: 5px 0 5px 0;
@@ -102,6 +102,12 @@ table{
     background-color: #ccc;
     padding-left: 3px;
     padding-bottom: 3px;
+}
+.tfoot{
+    background-color: #62b4ee;
+    color: #62b4ee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .invis{
     padding: 3px;
