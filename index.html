@@ -37,7 +37,7 @@
                     <li>пристрої зберігання: накопичувачі на жорстких магнітних дисках, різноманітні типи флешкарт і оптичних дисків</li>
                 </ul>
             </div>
-            <div class="table">
+            <!-- <div class="table">
                 <table>
                     <thead>
                         <tr>
@@ -84,6 +84,39 @@
                         </tr> 
                     </tfoot>
                 </table>
+            </div> -->
+            <div class="formats">
+                <div class="tab">
+                    <button class="tablinks" onclick="openFormat(event, 'wav')">wav</button>
+                    <button class="tablinks" onclick="openFormat(event, 'avi')">avi</button>
+                    <button class="tablinks" onclick="openFormat(event, 'mov')">mov</button>
+                    <button class="tablinks" onclick="openFormat(event, 'mkv')">mkv</button>
+                    <button class="tablinks" onclick="openFormat(event, 'mp4')">mp4</button>
+                </div>
+                <div id="wav" class="tabcontent">
+                    <h3>wav</h3>
+                    <p class="tabtext">призначений для збереження нестислого звуку, звук високої якості, великий обсяг, використовують в цифрових диктофонах</p>
+                </div>
+                <div id="avi" class="tabcontent">
+                    <h3>avi</h3>
+                    <p class="tabtext">розроблений компанією Microsoft на початку 1990-х років для збереження та відтворення відеозаписів. Для стискання аудіо- та відеозаписів можуть використовуватися різні кодеки. Має деякі обмеження, зокрема обсяг файлу не може перевищувати 4 Гбайт. На зміну цьому формату створено формат WMV</p>
+                </div>
+                <div id="mov" class="tabcontent">
+                    <h3>mov</h3>
+                    <p class="tabtext">один з перших відеоформатів, розроблений фірмою Apple наприкінці 1980-х років. Ступінь стискання досить великий. З'єднує відеопотоки, закодовані різними способами</p>
+                </div>
+                <div id="mkv" class="tabcontent">
+                    <h3>mkv</h3>
+                    <p class="tabtext">(Matroska, Матрёшка<span class="trigg"><img id="myImg" class="trigg_img" 
+                        src="img/4a6ae3bab666807c5a4a93cd40466e57.jpeg" style="width: 10px;height: 10px;"></span>) може містити 
+                        велике число потоків аудіо, відео і субтитрів, зберігаючи все в одному файлі</p>
+                </div>
+                <div id="mp4" class="tabcontent">
+                    <h3>mp4</h3>
+                    <p class="tabtext">(Matroska, Матрёшка<span class="trigg"><img id="myImg2" class="trigg_img" src="img/4a6ae3bab666807c5a4a93cd40466e57.jpeg"
+                        style="width: 10px;height: 10px;"></span>) може містити велике число потоків аудіо, відео і 
+                        субтитрів, зберігаючи все в одному файлі</p>
+                </div>
             </div>
             <div id="myModal" class="modal">
                 <span class="close">&times;</span>
